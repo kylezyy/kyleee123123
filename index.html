@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOSHI PORTFOLIO</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#ffc2d1;
+            color:#333;
+            line-height:1.6;
+        }
+        header{
+            background:#ffc2d1;
+            color:black;
+            padding:20px;
+            text-align:center;
+        }
+
+        header h1{
+            font-size:40px;
+        }
+
+        nav{
+            background:#ffa289;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            margin:0 15px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffd700;
+        }
+
+        section{
+            padding:40px;
+            max-width:900px;
+            margin:auto;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            margin-top:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .hobbies{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .hobby-box{
+            background:#eee;
+            padding:20px;
+            border-radius:8px;
+            flex:1;
+            min-width:200px;
+            text-align:center;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+		p{
+			text-align: center;
+		}
+		.aboutme{
+			text-align: center;
+		}
+		.myhobbies{
+			text-align: center;
+		}
+		a:hover{
+			transition: 0.5s;
+			background-color; pink;
+			padding: 3px;
+			border: black solid 3px;
+			border-radius: 10px;
+		}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Marionne Portfolio </h1>
+    <p>Future Programmer | Gamer | Basketball Player</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2 class="aboutme">About Me</h2>
+        <p>Hello! My name is <strong>Marionne</strong>. I am <strong>18 years old</strong>. I enjoy learning how to code and exploring technology.</p>
+
+        <p>In my free time, I like playing online games and basketball. I enjoy coding because it allows me to create websites and programs. My goal is to continue improving my programming skills and build more projects in the future.</p>
+    </div>
+</section>
+
+<section id="hobbies">
+    <div class="card">
+        <h2 class="myhobbies">My Hobbies</h2>
+
+        <div class="hobbies">
+            <div class="hobby-box">
+                <a id="exo" href="https://www.gamersdecide.com/sites/default/files/2022-10/mobile_legends_best_graphics_settings_to_use.jpg">Kagura Exorcist</a>
+				<p> Vera's Favorite Skin </p>
+            </div>
+
+            <div class="hobby-box">
+                <a id="clouds" href="https://i.pinimg.com/736x/54/c5/6b/54c56b9210500736f978ed7e0cbab464.jpg"> Kagura Beyond the Clouds</a>
+                <p> Vera's Second Favorite Skin </p>
+            </div>
+
+            <div class="hobby-box">
+                <a id="starlight" href="https://gamedaim.com/wp-content/uploads/2022/02/Kagura-Mobile-Legends.jpg"> Kagura Starlight </a>
+                <p> Vera's Third Favorite Skin </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Marionne | My Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
